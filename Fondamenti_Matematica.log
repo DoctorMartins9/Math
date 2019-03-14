@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.7)  9 MAR 2019 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.6)  15 MAR 2019 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,7 +629,7 @@ Overfull \hbox (36.62364pt too wide) detected at line 381
 Here is how much of TeX's memory you used:
  22172 strings out of 492649
  582418 string characters out of 6133385
- 777671 words of memory out of 5000000
+ 777669 words of memory out of 5000000
  25694 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -645,7 +645,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb>
-Output written on Fondamenti_Matematica.pdf (20 pages, 378984 bytes).
+Output written on Fondamenti_Matematica.pdf (20 pages, 378914 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
