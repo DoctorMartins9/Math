@@ -2,10 +2,13 @@
 \documentclass[a4paper]{article}
 \usepackage{amsmath}
 \usepackage{pgfplots}
+\usepackage[italian]{babel}
 
 \title{FONDAMENTI DI MATEMATICA}
 \author{Enrico Martini}
 \date{v1.0 | 2015 - 2019}
+
+
 \begin{document}
 	
 	\maketitle
@@ -254,15 +257,115 @@
 	\end{align*}
 	
 	\subsubsection*{Piano parallelo ad un altro piano passante per un punto}
+	
+	\begin{align*}
+	\alpha = \left|
+		\begin{array}{ccc}
+			a & b & c \\ 
+			a' & b' & c' \\ 
+			a'' & b'' & c''
+		\end{array}
+		\right| = 0 
+	\end{align*}
+		
 	\subsubsection*{Retta perpendicolare ad un piano passante per un punto}
+	
+	\begin{align*}
+		\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}
+	\end{align*}
+	
 	\subsubsection*{Piano passante per un punto perpendicolare ad una retta}
+	
+	\begin{align*}
+		\alpha = l(x-x_0)+m(y-y_0)+n(z-z_0)=0
+	\end{align*}
+	
 	\subsubsection*{Parallelismo tra piani}
+	\begin{align*}
+		\frac{a}{a'} = \frac{b}{b'} = \frac{c}{c'} \ne \frac{d}{d'}
+	\end{align*}
+	
 	\subsubsection*{Perpendicolarità tra piani}
+	\begin{align*}
+		aa'+bb'+cc'=0
+	\end{align*}
 	
 	\newpage
 	\section{Probabilità}
+	\begin{align*}
+		p(E) & = \frac{casi_{POSSIBILI}}{casi_{TOTALI}} & 0 & \le p(E) \le 1
+	\end{align*}
+	
+	\subsubsection*{Probabilità della somma logica di eventi}
+	\begin{align*}
+		p(E_1 \cup E_2) = p(E_1) + p(E_2) - p(E_1 \cap E_2)
+	\end{align*}
+	
+	\subsubsection*{Probabilità condizionata}
+	\begin{align*}
+		p(E_1 | E_2) = \frac{p(E_1 \cap E_2)}{p(E_2)}
+	\end{align*}
+	
+	\subsubsection*{Probabilità del prodotto logico di eventi}
+	\begin{align*}
+		\begin{cases}
+		p(E_1 \cap E_2) = p(E_1) \cdot p(E_1 | E_2)	& dipendenti\\
+		p(E_1 \cap E_2) = p(E_1) \cdot p(E_2)		& indipendenti
+		\end{cases}
+	\end{align*}
+	
+	\subsubsection*{Problema delle prove ripetute}
+	\begin{itemize}
+		\item n : numero di estrazioni
+		\item k : numero delle volte in cui deve uscire
+		\item p : probabilità che si verifichi
+		\item q : probabilità che non si verifichi
+	\end{itemize}
+
+	\begin{align*}
+		P_{k,n} = {{n}\choose{k}}p^kq^{n-k}
+	\end{align*}
+	
+	\subsubsection*{Teorema di Bayes}
+	\begin{align*}
+		p(E_i|E)= \frac{p(E_i) \cdot p(E | E_i)}{p(E)}
+	\end{align*}
+	
 	\newpage
 	\section{Calcolo combinatorio}
+	\subsubsection*{Disposizione semplice}
+	Tutti i gruppi con $k$ elementi su $h$ elementi diversi per contenuto e ordine non ripetuti.
+	\begin{align*}
+		D_{n,k} = n(n-1)(n-2)...(n-k+1)
+	\end{align*}
+
+	\subsubsection*{Disposizione con ripetizione}
+	\begin{align*}
+		D'_{n,k} = n^k
+	\end{align*}
+
+	\subsubsection*{Permutazione semplice}
+	Tutti i gruppi con $n$ elementi con ordine diverso.
+	\begin{align*}
+		P_n = n! 
+	\end{align*}
+	
+	\subsubsection*{Permutazione con ripetizione}
+	\begin{align*}
+		P_n^{(n;k)}=\frac{n!}{n!k!}
+	\end{align*}
+	
+	\subsubsection*{Combinazione semplice}
+	Scegliere $k$ elementi su $n$, senza ripetizione e senza cambiare l'ordine.
+	\begin{align*}
+		C_{n,k} = {{n}\choose{k}} = \frac{D_{n,k}}{P_k} = \frac{n(n-1)(n-2)...(n-k+1)}{k!} 
+	\end{align*}
+	
+	\subsubsection*{Combinazione con ripetizione}
+	\begin{align*}
+		C'_{n,k} = C_{n+k-1 , k} = {{n+k-1}\choose{k}}
+	\end{align*}
+	
 	\newpage
 	\section{Goniometria}
 		
@@ -334,10 +437,73 @@
 	
 	\newpage
 	\section{Trigonometria}
+	\subsubsection*{Teorema dei seni}
+	\begin{align*}
+	\frac{a}{\sin \alpha} = \frac{b}{\sin \beta} = \frac{c}{\sin \gamma}
+	\end{align*}
+	
+	\subsubsection*{Teorema del coseno}
+	\begin{align*}
+		a^2 = b^2 + c^2 -2bc\cos \alpha
+	\end{align*}
+	
 	\newpage
 	\section{Esponenziali}
-	\newpage
+	\begin{align*}
+		a^x &= b		&		a>&0
+	\end{align*}
+		
 	\section{Logaritmi}
+	\begin{align*}
+		\log_{a}{b} &= x
+		&
+		\begin{cases}
+		b > 0\\
+		a > 0 \wedge a \ne 0
+		\end{cases}&
+	\end{align*}
+	
+	\subsubsection*{Proprietà}
+	\begin{align*}
+		\log_{a}(b \cdot c)                 & = \log_{a} b + \log_{a} c &
+		\log_{a} \left( \frac{b}{c} \right) & = \log_{a} b - \log_{a} c \\
+		\log_{a} b^n                        & = n \log_{a} b		&
+		\log_{a} b 							& = \frac{\log_{c} b}{\log_{c} a}
+	\end{align*}
+	\subsubsection*{Casi particolari}
+	\begin{align*}
+		\log_{a} 1 &= 0 &
+		\log_{a} a &= 1
+	\end{align*}
+	
+	\begin{center}
+		\begin{tikzpicture}
+		\begin{axis}[
+		axis lines = left,
+		xlabel = $x$,
+		ylabel = {$f(x)$},
+		]
+		
+		\addplot [
+		domain= 0:6.28,
+		samples=100, 
+		color=red,
+		]
+		{e^x};
+		\addlegendentry{$e^x$}
+		
+		\addplot [
+		domain=0:6.28, 
+		samples=100, 
+		color=blue,
+		]
+		{ln(x)};
+		\addlegendentry{$\ln{x}$}
+		
+		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+	
 	\newpage
 	\section{Limiti}
 	\newpage
