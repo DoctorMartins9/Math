@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.6)  15 MAR 2019 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.7)  16 MAR 2019 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,30 +659,36 @@ File: sincos.jpg Graphic file (type jpg)
 <use sincos.jpg>
 Package pdftex.def Info: sincos.jpg  used on input line 432.
 (pdftex.def)             Requested size: 345.0pt x 488.14307pt.
- [10] [11 <./sincos.jpg>] [12]
+ [10] [11 <./sincos.jpg>]
+<trigonometria.jpg, id=52, 487.06969pt x 328.97906pt>
+File: trigonometria.jpg Graphic file (type jpg)
+<use trigonometria.jpg>
+Package pdftex.def Info: trigonometria.jpg  used on input line 443.
+(pdftex.def)             Requested size: 345.0pt x 233.01956pt.
+ [12 <./trigonometria.jpg>]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 [13] [14] [15]
-Overfull \hbox (50.03397pt too wide) detected at line 528
+Overfull \hbox (50.03397pt too wide) detected at line 607
 []
  []
 
 
-Overfull \hbox (5.31468pt too wide) detected at line 537
+Overfull \hbox (5.31468pt too wide) detected at line 616
 []
  []
 
 [16]
-Overfull \hbox (36.62364pt too wide) detected at line 547
+Overfull \hbox (36.62364pt too wide) detected at line 626
 []
  []
 
 [17] [18] [19] (./Fondamenti_Matematica.aux) ) 
 Here is how much of TeX's memory you used:
- 23088 strings out of 492649
- 594185 string characters out of 6133385
- 780768 words of memory out of 5000000
- 26586 multiletter control sequences out of 15000+600000
+ 23095 strings out of 492649
+ 594341 string characters out of 6133385
+ 781041 words of memory out of 5000000
+ 26592 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,96p,786b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -690,17 +696,18 @@ Here is how much of TeX's memory you used:
 /type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb>
-Output written on Fondamenti_Matematica.pdf (19 pages, 389154 bytes).
+mmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Fondamenti_Matematica.pdf (19 pages, 458175 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

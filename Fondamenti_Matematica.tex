@@ -323,7 +323,7 @@
 	\end{itemize}
 
 	\begin{align*}
-		P_{k,n} = {{n}\choose{k}}p^kq^{n-k}
+		P_{k,n} = {{n}\choose{k}} p^kq^{n-k}
 	\end{align*}
 	
 	\subsubsection*{Teorema di Bayes}
@@ -437,6 +437,15 @@
 	
 	\newpage
 	\section{Trigonometria}
+
+	\begin{figure}[htbp]
+		\begin{center}
+			\includegraphics[width=\linewidth]{trigonometria.jpg}
+		\end{center}
+	\end{figure}
+
+
+
 	\subsubsection*{Teorema dei seni}
 	\begin{align*}
 	\frac{a}{\sin \alpha} = \frac{b}{\sin \beta} = \frac{c}{\sin \gamma}
@@ -452,6 +461,36 @@
 	\begin{align*}
 		a^x &= b		&		a>&0
 	\end{align*}
+		
+			\begin{center}
+			\begin{tikzpicture}
+			\begin{axis}[
+			axis lines = left,
+			xlabel = $x$,
+			ylabel = {$f(x)$},
+			xmin=0,xmax=5,
+			ymin=0,ymax=10
+			]
+			
+			\addplot [
+			domain= 0:6.28,
+			samples=100, 
+			color=red,
+			]
+			{e^x};
+			\addlegendentry{$e^x$}	
+			
+					\addplot [
+			domain=0:6.28, 
+			samples=100, 
+			color=blue,
+			]
+			{ln(x)};
+			\addlegendentry{$\ln{x}$}
+			\end{axis}
+			
+			\end{tikzpicture}
+		\end{center}
 		
 	\section{Logaritmi}
 	\begin{align*}
@@ -475,39 +514,79 @@
 		\log_{a} 1 &= 0 &
 		\log_{a} a &= 1
 	\end{align*}
-	
-	\begin{center}
-		\begin{tikzpicture}
-		\begin{axis}[
-		axis lines = left,
-		xlabel = $x$,
-		ylabel = {$f(x)$},
-		]
 		
-		\addplot [
-		domain= 0:6.28,
-		samples=100, 
-		color=red,
-		]
-		{e^x};
-		\addlegendentry{$e^x$}
-		
-		\addplot [
-		domain=0:6.28, 
-		samples=100, 
-		color=blue,
-		]
-		{ln(x)};
-		\addlegendentry{$\ln{x}$}
-		
-		\end{axis}
-		\end{tikzpicture}
-	\end{center}
-	
 	\newpage
 	\section{Limiti}
+	
+	\subsubsection*{Verifica dei limiti}
+	\begin{align*}
+		&\forall \epsilon > 0 \exists I(x_0) : \left| f(x) - l \right|<\epsilon	&	\forall &x \in I(x_0),x\ne x_0	&	l,&x_0 \in \mathcal{N}\\\\
+		&\forall M > 0 \exists I(x_0) : f(x) - l > M	&	\forall &x \in I(x_0),x\ne x_0	&	l &=+\infty\\\\
+		&\forall M > 0 \exists I(x_0) : f(x) - l < -M	&	\forall &x \in I(x_0),x\ne x_0	&	l &=-\infty\\\\
+		&\forall \epsilon > 0 \exists c>0: \left| f(x) - l \right| < \epsilon	&	\forall &x>c	&	x_0 &= +\infty\\\\
+		&\forall \epsilon > 0 \exists c>0: \left| f(x) - l \right| < \epsilon	&	\forall &x<-c	&	x_0 &= -\infty
+	\end{align*}
+	\subsubsection*{Forme indeterminate}
+	\begin{align*}
+		 & +\infty-\infty &  & 0\cdot \infty &  & \frac{0}{0} &  & \frac{\infty}{\infty} &  & 0^0        \\\\
+		 & \infty^0       &  & 1^\infty      &  & \log_{1}1   &  & \log_{0} \infty       &  & \log_{0} 0
+	\end{align*}
+	
+	\subsubsection*{Limiti notevoli}
+	\begin{align*}
+		 & \lim\limits_{x \to 0} \left(\frac{\sin x}{x}\right) = 1 &  & \lim\limits_{x \to \pm \infty} \left(1+\frac{1}{x}\right) = 1	&	&\lim\limits_{x \to 0} \left(\frac{1-\cos x}{x^2}\right) = \frac{1}{2}\\\\
+		 & \lim\limits_{x \to \infty} (1+x)^{\frac{1}{x}} = e &  & \lim\limits_{x \to 0} \left(\frac{e^x-1}{x}\right) = 1
+		 \end{align*}
+	
+	\subsubsection*{Teorema del confronto}
+	\begin{align*}
+	&\begin{cases}
+			\mathcal{D}_{f(x)} = \mathcal{D}_{g(x)} = \mathcal{D}_{h(x)}\\
+			f(x) \le g(x) \le h(x)
+		\end{cases}	&	&\to	&	&\lim f(x) = \lim h(x)	&	&\to	&=\lim g(x)
+	\end{align*}
+	
+	
 	\newpage
 	\section{Derivate}
+	\subsubsection*{Derivate immediate}
+	\begin{align*}
+		k \in \mathcal{N} & \to 0                      & x^a         & \to	 ax^{a-1}            \\
+		x                 & \to 1                      & \sqrt{x}    & \to 	\frac{1}{2\sqrt{x}} \\
+		\sqrt[n]{x}       & \to \frac{1}{n\sqrt[n]{x}} & \frac{1}{x} & \to -\frac{1}{x^2}       \\
+		a^x               & \to a^x\ln a               & e^x         & \to e^x\\
+		\log_{a} x			&	\to \frac{1}{x} \log_{a} e	&	\ln x &\to \frac{1}{x} \\
+		\sin x &\to \cos x	&	\cos x &\to -\sin x\\
+		\arctan x &\to \frac{1}{1+x^2}	&	\arcsin x &\to \frac{1}{\sqrt{1-x^2}}\\
+		\arccos x &\to -\frac{1}{\sqrt{1-x^2}}
+	\end{align*}
+	
+	\subsubsection*{Proprietà}
+	\begin{itemize}
+		\item Somma:
+		\begin{align*}
+			d(f(x) + g(x)) = d(f(x))+d(g(x))
+		\end{align*}
+		\item  Prodotto:
+		\begin{align*}
+			d(k \cdot f(x)) &= k \cdot d(f(x))\\
+			d(f(x) \cdot g(x)) &= f'(x) \cdot g(x) + f(x) \cdot g'(x)
+		\end{align*}
+		\item Quoziente:
+		\begin{align*}
+			d\left( \frac{f(x)}{g(x)} \right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}
+		\end{align*}
+		\item Reciproco:
+		\begin{align*}
+			d\left( \frac{1}{f(x)} \right) = -\frac{f'(x)}{f(x)^2}
+		\end{align*}
+		\item Inverso:
+		\begin{align*}
+			d \left( f(x)^{-1} \right) = \frac{1}{f'(x)}
+		\end{align*}
+	\end{itemize}
+	
+	
 	\newpage
 	\section{Integrali}
 	\subsubsection*{Proprietà}
