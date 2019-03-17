@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.7)  16 MAR 2019 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.7)  17 MAR 2019 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,22 +668,62 @@ Package pdftex.def Info: trigonometria.jpg  used on input line 443.
  [12 <./trigonometria.jpg>]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[13] [14] [15]
-Overfull \hbox (50.03397pt too wide) detected at line 607
+[13] [14] [15] [16]
+Overfull \hbox (50.03397pt too wide) detected at line 624
 []
  []
 
 
-Overfull \hbox (5.31468pt too wide) detected at line 616
+Overfull \hbox (5.31468pt too wide) detected at line 633
 []
  []
 
-[16]
-Overfull \hbox (36.62364pt too wide) detected at line 626
+[17]
+Overfull \hbox (36.62364pt too wide) detected at line 643
 []
  []
 
-[17] [18] [19] (./Fondamenti_Matematica.aux) ) 
+[18]
+Overfull \hbox (22.83661pt too wide) detected at line 697
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--700
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
+
+ []
+
+[20] [21] (./Fondamenti_Matematica.aux) ) 
 Here is how much of TeX's memory you used:
  23095 strings out of 492649
  594341 string characters out of 6133385
@@ -692,22 +732,24 @@ Here is how much of TeX's memory you used:
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,96p,786b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Fondamenti_Matematica.pdf (19 pages, 458175 bytes).
+<c:/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
+mex7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Fondamenti_Matematica.pdf (21 pages, 480653 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

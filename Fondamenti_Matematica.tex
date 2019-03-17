@@ -585,6 +585,33 @@
 			d \left( f(x)^{-1} \right) = \frac{1}{f'(x)}
 		\end{align*}
 	\end{itemize}
+	\subsubsection*{Teorema di Rolle}
+	Requisiti:
+	\begin{itemize}
+		\item $f(x)$ continua e derivabile in $(a;b)$
+		\item $f(a) = f(b)$
+	\end{itemize}
+	\begin{align*}
+		\exists c \in \mathcal{N} f'(c) = 0
+	\end{align*}
+	\subsubsection*{Teorema di Cauchy}
+	Requisiti:
+	\begin{itemize}
+		\item $f(x)$ continua e derivabile in $(a;b)$
+		\item $g(x)$ continua e derivabile in $(a;b)$
+	\end{itemize}
+	\begin{align*}
+	\frac{f'(c)}{g'(c)} = \frac{f(b)-f(a)}{g(b)-g(a)}
+	\end{align*}
+	
+	\subsubsection*{Teorema di Lagrange}
+	Requisiti:
+	\begin{itemize}
+		\item $f(x)$ continua e derivabile in $(a;b)$
+	\end{itemize}
+	\begin{align*}
+	\frac{f'(c)}{g'(c)} = \frac{f(b)-f(a)}{g(b)-g(a)}
+	\end{align*}
 	
 	
 	\newpage
@@ -647,17 +674,145 @@
 	\begin{align*}
 		\frac{b-a}{n}\sum_{i=0}^{n-1}\frac{f(x_i)+f(x_i + 1)}{2} = \int_{a}^{b} f(x)dx
 	\end{align*}
+	
 	\newpage
 	\section{Equazioni differenziali}
+	\subsubsection*{Primo ordine}
+	\begin{align*}
+		F(y';y;x)=0
+	\end{align*}
+	\begin{enumerate}
+		\item $y' = f(x)$
+		\begin{align*}
+			\frac{dy}{dx}&=f(x)		&		y &= \int f(x)dx
+		\end{align*}
+		\item $y'=g(x)\cdot h(x)$ con $h(y) \ne 0$
+		\begin{align*}
+			\frac{dy}{dx} &= g(x)h(y)	&	\frac{dy}{h(y)} &= g(x)dx	&	\int \frac{dy}{h(y)}=\int g(x)dx
+		\end{align*}
+		\item $y'+a(x)y = b(x)$
+		\begin{align*}
+			y = e^{-\int a(x)dx}\cdot \left[ \int b(x)\cdot e^{\int a(x)dx} dx + c \right]
+		\end{align*}
+	\end{enumerate}
+	\subsubsection*{Secondo ordine}
+	\begin{enumerate}
+		\item $F(y'';y';y;x)=0$
+		\begin{align*}
+			y'' + by' + cx = 0 &\to z^2+bz+c=0		&		&\begin{cases}
+			y = c_1e^{z_1x}+c_2e^{z_2x}		&	\varDelta > 0\\
+			y = e^{zx}(c_1+c_2x)	&	\varDelta =0\\
+			y = e^{\alpha x}(c_1\cos{\beta x} + c_2\sin{\beta x})	&	\varDelta<0
+			\end{cases}
+		\end{align*}
+		\item $y'' +by' + cy = r(x)$\\\\
+		Risolvere la soluzione omogenea $y'' +by' + cy = 0$ e poi valutare la soluzione particolare $r(x)$:
+		\begin{itemize}
+			\item  $r(x)$ polinomio $\to p(x) = x(ax^2+bx+c) $ \\
+			\item  $r(x) = A \cdot e^{hx} \to p(x) = C \cdot e^{rx}$ , $r=h$\\
+			\item  $r(x) = A \cos{\omega x} + B\sin{\omega x} \to p(x) = C\cos{\omega x} + D\sin{\omega x}$
+		\end{itemize}
+	\end{enumerate}
+	
+	
+	
 	\newpage
 	\section{Studio di funzione}
+		\subsection{Studio del dominio}
+		Verificare la presenza di:\\
+		\begin{align*}
+			&\frac{numeratore}{denominatore} & &\to & &denominatore \ne 0\\\\
+			&\sqrt{argomento}				 & &\to & &argomento \ge 0\\\\
+			&\log_{a}{(argomento)}			 & &\to & &argomento > 0\\
+		\end{align*}
 		
-		\subsection{Calcolo del dominio}
-		\subsection{Asintoti}
+		\subsection{Studio del limite e degli asintoti}
+		\subsubsection*{Discontinuità}
+		\begin{itemize}
+			\item  Funzione continua:
+			\begin{align*}
+			\lim\limits_{x \to x_0^-} f(x) = \lim\limits_{x \to x_0^+} f(x)
+			\end{align*}
+			\item  Discontinuità di prima specie:
+			\begin{align*}
+			\lim\limits_{x \to x_0^-} f(x) \ne \lim\limits_{x \to x_0^+} f(x) \in \mathcal{R}
+			\end{align*}
+			\item  Discontinuità di seconda specie:
+			\begin{align*}
+			\lim\limits_{x \to x_0^-} f(x) \ne \lim\limits_{x \to x_0^+} f(x) = \pm \infty
+			\end{align*}
+			\item Discontinuità di terza specie:
+			\begin{align*}
+			\lim\limits_{x \to x_0^-} f(x) = \lim\limits_{x \to x_0^+} f(x) \wedge x \ne x_0
+			\end{align*}
+			
+		\end{itemize}
+		
+		\subsubsection*{Asintoto}
+		\begin{itemize}
+			\item Orizzontale\\
+			\begin{align*}
+				&\lim\limits_{x \to \pm \infty}{f(x)} = q	&	y&=q
+			\end{align*}
+			
+			\item Verticale\\
+			\begin{align*}
+				&\lim\limits_{x \to q}{f(x)} = \pm \infty	&	x&=q
+			\end{align*}
+			\item Obliquo\\
+			\begin{align*}
+			&\lim\limits_{x \to \pm \infty}{f(x)} = \pm \infty	&	y&=mx+q\\
+			&m=\lim\limits_{x \to \pm \infty}{\frac{f(x)}{x}}   &	q&=\lim\limits_{x \to \pm \infty}{f(x)-mx}
+			\end{align*}
+						
+		\end{itemize}
+		
 		\subsection{Parità/Disparità}
+		\begin{itemize}
+			\item \textbf{Funzione pari:} funzione simmetrica rispetto all'asse y.
+			\begin{align*}
+				f(x) &= f(-x)
+			\end{align*}
+			\item \textbf{Funzione dispari:} funzione con simmetria centrale rispetto all'origine.
+			\begin{align*}
+				f(x) &= -f(-x)
+			\end{align*}
+		\end{itemize}
+		
 		\subsection{Incontro con gli assi}
+		\begin{align*}
+			&\begin{cases}
+			x = 0\\
+			y = f(0)
+			\end{cases}	&	&\bigcup &	&\begin{cases}
+			y = 0\\
+			f(x) = 0
+			\end{cases}
+		\end{align*}
+		
 		\subsection{Studio del segno}
+		\begin{align*}
+			f(x) > 0
+		\end{align*}
+		Funzione crescente:
+		\begin{align*}
+			\forall x_1,x_2 \in \mathcal{D}, x_1 < x_2 &\to f(x_1)<f(x_2)
+		\end{align*}
+		Funzione decrescente:
+		\begin{align*}
+			\forall x_1,x_2 \in \mathcal{D}, x_1 > x_2 &\to f(x_1)>f(x_2)
+		\end{align*}
+
 		\subsection{Punti di massimo e minimo}
+		Line up:
+		\begin{enumerate}
+			\item Calcolo della derivata prima
+			\item Studio del dominio
+			\item Studio del segno
+			\item Estrazione del massimo e minimo locale/globale
+		\end{enumerate}
+		
+		
 		\subsection{Punti di flesso}
 	
 	
