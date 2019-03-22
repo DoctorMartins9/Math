@@ -291,6 +291,75 @@
 	\end{align*}
 	
 	\newpage
+	\subsection*{Calcolare i punti stazionari}
+	\begin{enumerate}
+		\item Calcolare le derivate parziali del primo ordine
+			\begin{align*}
+				f'_x&(x,y)	&	f'_y&(x,y)
+			\end{align*}
+		\item Risolvere i sistema con le derivate uguali a zero
+			\begin{align*}
+				\begin{cases}
+				f'_x(x,y)=0\\
+				f'_y(x,y)=0
+				\end{cases}
+			\end{align*}
+		\item Ricavare i punti stazionari
+			\begin{align*}
+				P(x_P,y_P)
+			\end{align*}
+		\item Calcolare le derivate parziali del secondo ordine
+			\begin{align*}
+				f''_{xx}&(x,y)	&	f''_{xy}&(x,y)	&	f''_{yx}&(x,y)	&	f''_{yy}&(x,y)
+			\end{align*}
+		\item Costruire la matrice Hessiana
+			\begin{align*}
+				H_f(x,y) = \left[
+				\begin{array}{cc}
+				f''_{xx}(x,y) & f''_{xy}(x,y) \\ 
+				f''_{yx}(x,y) & f''_{yy}(x,y)
+				\end{array} \right]
+			\end{align*}
+		\item Calcolare il determinante della matrice Hessiana
+			\begin{align*}
+				det(H_f(x,y)) = \left|
+				\begin{array}{cc}
+				f''_{xx}(x,y) & f''_{xy}(x,y) \\ 
+				f''_{yx}(x,y) & f''_{yy}(x,y)
+				\end{array} \right|
+				\end{align*}
+			\end{enumerate}
+		Considero i casi:\\
+			\begin{itemize}
+				\item $f''_{xx}(x_0,y_0) > 0 \wedge det(H_f) > 0 \to $ minimo locale
+				\item $f''_{xx}(x_0,y_0) < 0 \wedge det(H_f) > 0 \to $ massimo locale
+				\item $det(H_f) < 0 \to $ punto di sella
+			\end{itemize}
+			\newpage
+			\section{Coordinate}
+			\subsubsection*{Coordinate sferiche}
+			Si noti che $\rho \ge 0$, $\varphi \in [0,\pi]$ e $\varTheta \in [0,2\pi]$.
+			\begin{align*}
+				&\begin{cases}
+					x = \rho \cdot \sin(\varphi)\cos(\varTheta)\\
+					y = \rho \cdot \sin(\varphi)\sin(\varTheta)\\
+					z = p \cdot \cos(\varphi)
+				\end{cases}	&	p &= \sqrt{x^2+y^2+z^2}
+			\end{align*}
+			\begin{align*}
+				\int \int \int_{D}f(x,y,z)dxdydz = \int \int \int_D f(\rho,\varphi,\varTheta) \cdot \rho^2 \cdot \sin(\varphi) d\rho d\varphi d\varTheta
+			\end{align*}
+			\subsubsection*{Coordinate cilindriche}
+			Si noti che $p \ge 0$ , $z \in \mathcal{R}$ e $\varTheta \in [0,2\pi]$.
+			\begin{align*}
+				&\begin{cases}
+				x = \rho \cdot \cos(\varTheta)\\
+				y = \rho \cdot \sin(\varTheta)\\
+				z=z
+				\end{cases}	&	p &= \sqrt{x^2+y^2}
+			\end{align*}
+	
+	\newpage
 	\section{Probabilità}
 	\begin{align*}
 		p(E) & = \frac{casi_{POSSIBILI}}{casi_{TOTALI}} & 0 & \le p(E) \le 1
@@ -585,6 +654,7 @@
 			d \left( f(x)^{-1} \right) = \frac{1}{f'(x)}
 		\end{align*}
 	\end{itemize}
+\newpage
 	\subsubsection*{Teorema di Rolle}
 	Requisiti:
 	\begin{itemize}
@@ -612,6 +682,61 @@
 	\begin{align*}
 	\frac{f'(c)}{g'(c)} = \frac{f(b)-f(a)}{g(b)-g(a)}
 	\end{align*}
+	
+	\newpage
+	\subsection*{Teorema delle derivate successive}
+	Massimo:\\
+	\begin{align*}
+		\begin{cases}
+			f'(x_0) = 0\\
+			f''(x_0) < 0
+		\end{cases}
+	\end{align*}
+	Minimo:\\
+	\begin{align*}
+		\begin{cases}
+			f'(x_0) = 0\\
+			f''(x_0) > 0
+		\end{cases}
+	\end{align*}
+	Flesso ascendente a tangente orizzontale:\\
+	\begin{align*}
+		\begin{cases}
+			f'(x_0) = 0\\
+			f''(x_0) = 0\\
+			f'''(x_0) > 0
+		\end{cases}
+	\end{align*}
+	Flesso discendente a tangente orizzontale:\\
+	\begin{align*}
+		\begin{cases}
+			f'(x_0) = 0\\
+			f''(x_0) = 0\\
+			f'''(x_0) < 0
+		\end{cases}
+	\end{align*}	
+	Flesso ascendente a tangente obliqua:\\
+	\begin{align*}
+	\begin{cases}
+	f'(x_0) \ne 0\\
+	f''(x_0) = 0\\
+	f'''(x_0) > 0
+	\end{cases}
+	\end{align*}	
+	Flesso discendente a tangente obliqua:\\
+	\begin{align*}
+	\begin{cases}
+	f'(x_0) \ne 0\\
+	f''(x_0) = 0\\
+	f'''(x_0) < 0
+	\end{cases}
+	\end{align*}	
+	Formula della tangente obliqua:
+	\begin{align*}
+		y-y_0 = f'(x_0)(x-x_0)
+	\end{align*}
+	
+	
 	
 	
 	\newpage
@@ -674,6 +799,31 @@
 	\begin{align*}
 		\frac{b-a}{n}\sum_{i=0}^{n-1}\frac{f(x_i)+f(x_i + 1)}{2} = \int_{a}^{b} f(x)dx
 	\end{align*}
+	
+	\newpage
+	\subsubsection*{Integrali doppi}
+	\begin{align*}
+		I = \int_{a}^{b}dy\int_{c}^{d}f(x,y)dx
+	\end{align*}
+	\subsubsection*{Integrali di linea di prima specie}
+	\begin{align*}
+		I = \int_{a}^{b}f(\gamma (t)) \cdot ||\gamma'(t)||dt
+	\end{align*}
+	\subsubsection*{Integrali tripli}
+	\begin{itemize}
+		\item Parallelepipedi regolari:
+		\begin{align*}
+			D = [a,b] \times [c,d] \times [e,h] \to \int_{a}^{b}\left( \int_{c}^{d} \left( \int_{e}^{h} f(x,y,z) dz \right) dy \right) dx
+		\end{align*}		
+		\item Per fili:
+		\begin{align*}
+			D = \left\lbrace  (x,y,z) \in \mathcal{R}^2:(x,y) \in \Omega,g_1(x,y) \le z \le g_2(x,y) \right\rbrace to \int \int_{\Omega} \left( \int_{g_1(x,y)}^{g_2(x,y)}f(x,y,z)dz \right)dxdy
+		\end{align*}
+		\item Per strati:
+		\begin{align*}
+		D =	\left\lbrace (x,y,z) in \mathcal{R}^2:z_1 \le z \le z_2 , (x,y) \in \Omega (z) \right\rbrace \to \int_{z_1}^{z_2} \left( \int \int_{\Omega (z)} f(x,y,z)dxdy \right)dz
+		\end{align*}
+	\end{itemize}
 	
 	\newpage
 	\section{Equazioni differenziali}
@@ -809,7 +959,7 @@
 			\item Calcolo della derivata prima
 			\item Studio del dominio
 			\item Studio del segno
-			\item Estrazione del massimo e minimo locale/globale
+			\item Estrazione del massimo e minimo locale/globale 
 		\end{enumerate}
 		
 		
