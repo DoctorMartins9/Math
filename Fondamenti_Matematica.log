@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.6)  22 MAR 2019 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.7)  24 MAR 2019 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,7 +485,32 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
 tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+))) (c:/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(c:/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count127
+\c@Blindtext=\count128
+\c@blind@countparstart=\count129
+\blind@countxx=\count130
+\blindtext@numBlindtext=\count131
+\blind@countyy=\count132
+\c@blindlist=\count133
+\c@blindlistlevel=\count134
+\c@blindlist@level=\count135
+\blind@listitem=\count136
+\c@blind@listcount=\count137
+\c@blind@levelcount=\count138
+\blind@mathformula=\count139
+\blind@Mathformula=\count140
+\c@blind@randomcount=\count141
+\c@blind@randommax=\count142
+\c@blind@pangramcount=\count143
+\c@blind@pangrammax=\count144
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
@@ -496,48 +521,54 @@ Language: italian 2015/03/26 v1.3n Italian support from the babel system
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count127
+\babel@savecnt=\count145
 \U@D=\dimen174
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count128
+\bbl@dirlevel=\count146
 )
-\it@lettering=\count129
-\it@doublequoteactive=\count130
-\it@ISOcompliance=\count131
+\it@lettering=\count147
+\it@doublequoteactive=\count148
+\it@ISOcompliance=\count149
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count132
+\etb@tempcnta=\count150
 )
-(./Fondamenti_Matematica.aux)
+(c:/texlive/2018/texmf-dist/tex/latex/moresize/moresize.sty
+Package: moresize 1999/07/26 v1.9 (more font sizes)
+)
+(./Fondamenti_Matematica.aux
+
+LaTeX Warning: Label `f_etichetta1' multiply defined.
+
+)
 \openout1 = `Fondamenti_Matematica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-
-(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
+\scratchcounter=\count151
 \scratchdimen=\dimen175
 \scratchbox=\box40
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count136
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen176
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks37
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -600,200 +631,234 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 12.
+ on input line 13.
 
-LaTeX Info: Redefining \it@ocap on input line 12.
-LaTeX Info: Redefining \it@ccap on input line 12.
+LaTeX Info: Redefining \it@ocap on input line 13.
+LaTeX Info: Redefining \it@ccap on input line 13.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 12.
+italian.ldf    on input line 13.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <50> not available
+(Font)              size <24.88> substituted on input line 15.
 
 [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Fondamenti_Matematica.toc)
+(./Fondamenti_Matematica.toc [2] [3])
 \tf@toc=\write4
 \openout4 = `Fondamenti_Matematica.toc'.
 
- [2] [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+ [4] [5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 334.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 336.
 
 (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 334.
- [8] [9]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 336.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+[11] [12]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 396.
+(amsmath)                 on input line 465.
 
-[10] [11]
-<sincos.jpg, id=51, 796.47563pt x 1126.96031pt>
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+[14]
+<sincos.jpg, id=62, 796.47563pt x 1126.96031pt>
 File: sincos.jpg Graphic file (type jpg)
 <use sincos.jpg>
-Package pdftex.def Info: sincos.jpg  used on input line 501.
+Package pdftex.def Info: sincos.jpg  used on input line 575.
 (pdftex.def)             Requested size: 345.0pt x 488.14307pt.
- [12] [13 <./sincos.jpg>]
-<trigonometria.jpg, id=59, 487.06969pt x 328.97906pt>
+ [15] [16 <./sincos.jpg>]
+<trigonometria.jpg, id=69, 487.06969pt x 328.97906pt>
 File: trigonometria.jpg Graphic file (type jpg)
 <use trigonometria.jpg>
-Package pdftex.def Info: trigonometria.jpg  used on input line 512.
+Package pdftex.def Info: trigonometria.jpg  used on input line 586.
 (pdftex.def)             Requested size: 345.0pt x 233.01956pt.
- [14 <./trigonometria.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+
+ []
+
+[17 <./trigonometria.jpg>]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[15] [16] [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 688--689
+[18] [19] [20]
+<rolle.png, id=85, 2007.5pt x 1435.3625pt>
+File: rolle.png Graphic file (type png)
+<use rolle.png>
+Package pdftex.def Info: rolle.png  used on input line 770.
+(pdftex.def)             Requested size: 105.2751pt x 75.25471pt.
+<lagrange.png, id=87, 220.825pt x 194.7275pt>
+File: lagrange.png Graphic file (type png)
+<use lagrange.png>
+Package pdftex.def Info: lagrange.png  used on input line 776.
+(pdftex.def)             Requested size: 105.2751pt x 92.83226pt.
+ [21 <./rolle.png> <./lagrange.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--696
+Underfull \hbox (badness 10000) in paragraph at lines 791--793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--703
+Underfull \hbox (badness 10000) in paragraph at lines 798--800
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--711
+Underfull \hbox (badness 10000) in paragraph at lines 806--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
+Underfull \hbox (badness 10000) in paragraph at lines 814--816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--727
+Underfull \hbox (badness 10000) in paragraph at lines 822--824
 
- []
-
-[19]
-Overfull \hbox (50.03397pt too wide) detected at line 759
-[]
- []
-
-
-Overfull \hbox (5.31468pt too wide) detected at line 768
-[]
- []
-
-[20]
-Overfull \hbox (36.62364pt too wide) detected at line 778
-[]
- []
-
-[21]
-Overfull \hbox (85.77544pt too wide) detected at line 821
-[]
- []
-
-
-Overfull \hbox (45.80678pt too wide) detected at line 825
-[]
  []
 
 [22]
-Overfull \hbox (22.83661pt too wide) detected at line 857
+Overfull \hbox (55.03384pt too wide) detected at line 856
+[]
+ []
+
+[23]
+Overfull \hbox (36.62364pt too wide) detected at line 875
+[]
+ []
+
+[24]
+Overfull \hbox (85.77544pt too wide) detected at line 927
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 858--860
+Overfull \hbox (48.5814pt too wide) detected at line 931
+[]
+ []
+
+[25]
+Overfull \hbox (22.83661pt too wide) detected at line 977
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
 
  []
 
-[24] [25] (./Fondamenti_Matematica.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
+
+ []
+
+[27] [28] [29] (./Fondamenti_Matematica.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 25.12pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 23095 strings out of 492649
- 594341 string characters out of 6133385
- 781046 words of memory out of 5000000
- 26592 multiletter control sequences out of 15000+600000
- 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 23303 strings out of 492649
+ 597740 string characters out of 6133385
+ 786053 words of memory out of 5000000
+ 26784 multiletter control sequences out of 15000+600000
+ 9621 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,96p,786b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
-mex7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Fondamenti_Matematica.pdf (25 pages, 488744 bytes).
+ 69i,17n,96p,813b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y7.pfb>
+Output written on Fondamenti_Matematica.pdf (29 pages, 565082 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
