@@ -5,14 +5,44 @@
 \usepackage{blindtext}
 \usepackage[italian]{babel}
 \usepackage[11pt]{moresize}
+
 \title{\fontsize{50}{60}\selectfont FONDAMENTI DI MATEMATICA}
 \author{\\\\Enrico Martini}
 \date{\small versione 1.0 \\| \\2015 - 2019}
 
+\usepackage{graphicx}
 
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand\HRule{\rule{\textwidth}{1pt}}
+\usepackage[11pt]{moresize}
+\usepackage{LobsterTwo}
+\usepackage[T1]{fontenc}
 \begin{document}
 	
-	\maketitle
+	\begin{titlepage}
+		\begin{tikzpicture}[remember picture, overlay]
+		\draw[line width = 1pt] ($(current page.north west) + (1,-1)$) rectangle ($(current page.south east) + (-1,1)$);
+		\end{tikzpicture}
+		\centering
+		\includegraphics[width=\textwidth]{img/vec2.png}\par\vspace{1cm}
+		
+		{\HUGE\bfseries {Fondamenti di Matematica}\par}		
+		\vspace{1.5cm}
+		\includegraphics[width=1\textwidth, height=0.4cm]{img/vec4.png}\par\vspace{1cm}
+		\vspace{1.5cm}
+		{\Large\itshape Enrico Martini\par}
+		\vfill		
+		\vfill
+		
+		% Bottom of the page
+		{2015 \-- 2019\par}
+	\end{titlepage}
+	
+	
+	\renewcommand{\familydefault}{babel}
+	\sffamily
+	
 	\thispagestyle{empty}
 	\newpage
 	\tableofcontents
@@ -182,7 +212,7 @@
 	y' = hx - y_c
 	\end{cases}
 	\end{align*}
-	\subsubsection{Affinità}
+	\subsubsection{Affinita'}
 	\begin{align*}
 		&\begin{cases}
 			x'=ax+by+h\\
@@ -286,7 +316,7 @@
 		\frac{a}{a'} = \frac{b}{b'} = \frac{c}{c'} \ne \frac{d}{d'}
 	\end{align*}
 	
-	\subsubsection{Perpendicolarità tra piani}
+	\subsubsection{Perpendicolarita' tra piani}
 	\begin{align*}
 		aa'+bb'+cc'=0
 	\end{align*}
@@ -428,23 +458,23 @@
 	\end{align*}
 	
 	\newpage
-	\section{Probabilità}
+	\section{Probabilita'}
 	\begin{align*}
 		p(E) & = \frac{casi_{POSSIBILI}}{casi_{TOTALI}} & 0 & \le p(E) \le 1
 	\end{align*}
 	
-	\subsubsection{Probabilità della somma logica di eventi}
+	\subsubsection{Probabilita' della somma logica di eventi}
 	\begin{align*}
 		p(E_1 \cup E_2) = p(E_1) + p(E_2) - p(E_1 \cap E_2)
 	\end{align*}
 	
-	\subsubsection{Probabilità condizionata}
-	La probabilità condizionata di un evento A rispetto a un evento B è la probabilità che si verifichi A, sapendo che B è verificato.
+	\subsubsection{Probabilita' condizionata}
+	La probabilita' condizionata di un evento A rispetto a un evento B è la probabilita' che si verifichi A, sapendo che B è verificato.
 	\begin{align*}
 		p(E_1 | E_2) = \frac{p(E_1 \cap E_2)}{p(E_2)}
 	\end{align*}
 	
-	\subsubsection{Probabilità del prodotto logico di eventi}
+	\subsubsection{Probabilita' del prodotto logico di eventi}
 	\begin{align*}
 		\begin{cases}
 		p(E_1 \cap E_2) = p(E_1) \cdot p(E_1 | E_2)	& dipendenti\\
@@ -456,8 +486,8 @@
 	\begin{itemize}
 		\item n : numero di estrazioni
 		\item k : numero delle volte in cui deve uscire
-		\item p : probabilità che si verifichi
-		\item q : probabilità che non si verifichi
+		\item p : probabilita' che si verifichi
+		\item q : probabilita' che non si verifichi
 	\end{itemize}
 
 	\begin{align*}
@@ -465,7 +495,7 @@
 	\end{align*}
 	
 	\subsubsection{Teorema di Bayes}
-	Considerando un insieme di alternative $A_{1}, ,A_{n}$ che partizionano lo spazio degli eventi $\Omega$ (ossia $A_{i} \cap A_{j} = \emptyset , \forall i\neq j$ e $\cup _{{i=1}}^{n}A_{i}=\Omega )$ si trova la seguente espressione per la probabilità condizionata:
+	Considerando un insieme di alternative $A_{1}, ,A_{n}$ che partizionano lo spazio degli eventi $\Omega$ (ossia $A_{i} \cap A_{j} = \emptyset , \forall i\neq j$ e $\cup _{{i=1}}^{n}A_{i}=\Omega )$ si trova la seguente espressione per la probabilita' condizionata:
 	\begin{align*}
 		p(E_i|E)= \frac{p(E_i) \cdot p(E | E_i)}{p(E)}
 	\end{align*}
@@ -649,7 +679,7 @@
 		\end{cases}&\\
 	\end{align*}
 	
-	\subsubsection{Proprietà}
+	\subsubsection{Proprieta'}
 	\begin{align*}
 		\log_{a}(b \cdot c)                 & = \log_{a} b + \log_{a} c &
 		\log_{a} \left( \frac{b}{c} \right) & = \log_{a} b - \log_{a} c \\
@@ -708,7 +738,7 @@
 		&\arccos x          \to -\frac{1}{\sqrt{1-x^2}} &\\
 	\end{align*}
 	
-	\subsubsection{Proprietà}
+	\subsubsection{Proprieta'}
 	\begin{itemize}
 		\item Somma:
 		\begin{align*}
@@ -755,7 +785,7 @@
 	
 	\subsubsection{Teorema di Lagrange}
 	Dato il grafico di una funzione tra due estremi, esiste almeno un punto in cui la tangente al grafico è parallela alla secante passante per gli estremi.
-	Questo teorema è usato per provare delle proprietà di una funzione in un intervallo partendo da ipotesi locali sulle derivate nei punti di tale intervallo.
+	Questo teorema è usato per provare delle proprieta' di una funzione in un intervallo partendo da ipotesi locali sulle derivate nei punti di tale intervallo.
 	Requisiti:
 	\begin{itemize}
 		\item $f(x)$ continua e derivabile in $(a;b)$
@@ -838,7 +868,7 @@
 	
 	\newpage
 	\section{Integrali}
-	\subsubsection{Proprietà}
+	\subsubsection{Proprieta'}
 	\begin{align*}
 		\int k f(x) dx &= k \int f(x) dx\\
 		\int \left[f_1(x)+f_2(x)+f_3(x)\right]dx &= \int f_1(x)dx + \int f_2(x)dx + \int f_3(x)dx\\
@@ -997,21 +1027,21 @@
 		\end{align*}
 		
 		\subsection{Studio del limite e degli asintoti}
-		\subsubsection{Discontinuità}
+		\subsubsection{Discontinuita'}
 		\begin{itemize}
 			\item  Funzione continua:
 			\begin{align*}
 			\lim\limits_{x \to x_0^-} f(x) = \lim\limits_{x \to x_0^+} f(x)
 			\end{align*}
-			\item  Discontinuità di prima specie:
+			\item  Discontinuita' di prima specie:
 			\begin{align*}
 			\lim\limits_{x \to x_0^-} f(x) \ne \lim\limits_{x \to x_0^+} f(x) \in \mathcal{R}
 			\end{align*}
-			\item  Discontinuità di seconda specie:
+			\item  Discontinuita' di seconda specie:
 			\begin{align*}
 			\lim\limits_{x \to x_0^-} f(x) \ne \lim\limits_{x \to x_0^+} f(x) = \pm \infty
 			\end{align*}
-			\item Discontinuità di terza specie:
+			\item Discontinuita' di terza specie:
 			\begin{align*}
 			\lim\limits_{x \to x_0^-} f(x) = \lim\limits_{x \to x_0^+} f(x) \wedge x \ne x_0
 			\end{align*}
@@ -1037,7 +1067,7 @@
 						
 		\end{itemize}
 		
-		\subsection{Parità/Disparità}
+		\subsection{Parita'/Disparita'}
 		\begin{itemize}
 			\item \textbf{Funzione pari:} funzione simmetrica rispetto all'asse y.
 			\begin{align*}
@@ -1098,7 +1128,7 @@
 			\item Estrazione del massimo e minimo locale/globale 
 		\end{enumerate}		
 	\newpage
-	\subsection{Punti di non derivabilità}
+	\subsection{Punti di non derivabilita'}
 	Punto angoloso:
 	\begin{align*}
 		\lim\limits_{x \to x_0^-}f'(x) \ne \lim\limits_{x \to x_0^+}f'(x)
@@ -1112,7 +1142,7 @@
 		\lim\limits_{x \to x_0^-}f'(x) = \lim\limits_{x \to x_0^+}f'(x) = \pm \infty
 	\end{align*}
 	
-	\subsection{Proprietà delle funzioni derivabili}
+	\subsection{Proprieta' delle funzioni derivabili}
 	\begin{center}
 		\begin{tabular}{|c|c|}
 		\hline 
