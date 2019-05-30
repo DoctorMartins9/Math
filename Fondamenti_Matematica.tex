@@ -1,23 +1,20 @@
-% !TeX spellcheck = it_IT
 \documentclass[a4paper]{article}
 \usepackage{amsmath}
 \usepackage{pgfplots}
 \usepackage{blindtext}
 \usepackage[italian]{babel}
 \usepackage[11pt]{moresize}
-
-\title{\fontsize{50}{60}\selectfont FONDAMENTI DI MATEMATICA}
-\author{\\\\Enrico Martini}
-\date{\small versione 1.0 \\| \\2015 - 2019}
-
 \usepackage{graphicx}
-
 \usepackage{tikz}
 \usetikzlibrary{calc}
-\newcommand\HRule{\rule{\textwidth}{1pt}}
 \usepackage[11pt]{moresize}
+
+\newcommand\HRule{\rule{\textwidth}{1pt}}
+
+% front-page font
 \usepackage{LobsterTwo}
 \usepackage[T1]{fontenc}
+
 \begin{document}
 	
 	\begin{titlepage}
@@ -35,20 +32,21 @@
 		\vfill		
 		\vfill
 		
-		% Bottom of the page
 		{2015 \-- 2019\par}
 	\end{titlepage}
 	
-	
-	\renewcommand{\familydefault}{babel}
-	\sffamily
-	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Da qui in poi vorrei utilizzare il font di default LaTex
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
 	\thispagestyle{empty}
 	\newpage
 	\tableofcontents
 	\thispagestyle{empty}
-	\newpage
 	
+	
+	\newpage
+	\pagenumbering{arabic}
 	\section{Geometria analitica}
 	\subsection{Punto}
 	Rappresentazione:
@@ -413,7 +411,41 @@
 			\item Sostituire massimo/minimo per trovare i punti globali
 		\end{enumerate}
 			
-			\newpage
+		\newpage
+		\section{Numeri complessi}
+			Un numero complesso c $\epsilon$  C:
+			\begin{align*}
+			c &= Re + jIm\\
+			j &= \sqrt{-1}
+			\end{align*}
+			Il coniugato di c è :
+			\begin{align*}
+			\bar{c} &= Re -jIm
+			\end{align*}
+			Formula di Eulero:
+			\begin{align*}
+			e^{j\theta} = \cos(\theta) + j*\sin(\theta)
+			\end{align*}
+			\textit{Serve ad ottenere una formulazione alternativa alla forma polare}\\\\
+			I numeri complessi is possono rappresentare in coordinate polari:
+			\begin{align*}
+			(modulo &, angolo)\\
+			(|c|&,\theta)\\
+			|c|&=\sqrt{Re^2+Im^2}\\
+			\theta&=\arctan{\frac{Im}{Re}}
+			\end{align*}
+			Operazioni tra numeri complessi:
+			\begin{align*}
+			c_{1} + c_{2}&=(R_{1} + R_{2}) + j*(I_{1} + I_{2})\\
+			c_{1} * c_{2}&=(R_{1}R_{2}-I_{1}I_{2}) - j*(R_{1}R_{2}+I_{1}I_{2})=|c_{1}||c_{2}|*e^{j(\theta_{1}+\theta_{2})}\\
+			\end{align*}
+			\bigskip
+			\begin{center}
+			\includegraphics[width=6cm]{img/complex.png}
+			\end{center}
+			
+			
+	\newpage
 	\subsection{Coordinate}
 	\subsubsection{Coordinate sferiche}
 	Si noti che $\rho \ge 0$, $\varphi \in [0,\pi]$ e $\varTheta \in [0,2\pi]$.
@@ -522,13 +554,13 @@
 	
 	\subsubsection{Permutazione con ripetizione}
 	\begin{align*}
-		P_n^{(n;k)}=\frac{n!}{n!k!}
+		P_n^{(m;k)}=\frac{n!}{m!k!}
 	\end{align*}
 	
 	\subsubsection{Combinazione semplice}
 	Scegliere $k$ elementi su $n$, senza ripetizione e senza cambiare l'ordine.
 	\begin{align*}
-		C_{n,k} = {{n}\choose{k}} = \frac{D_{n,k}}{P_k} = \frac{n(n-1)(n-2)...(n-k+1)}{k!} 
+		C_{n,k} = {{n}\choose{k}} = \frac{n!}{k!(n-k)!} 
 	\end{align*}
 	
 	\subsubsection{Combinazione con ripetizione}
@@ -572,37 +604,25 @@
 	\sin (\alpha) &= \frac{2t}{1+t^2} & \cos (\alpha) = \frac{1 - t^2}{1 + t^2} & & t= \tan \left(\frac{\alpha}{2}\right)
 	\end{align*}
 	
-	\begin{center}
-		\begin{tikzpicture}
-		\begin{axis}[
-		axis lines = left,
-		xlabel = $x$,
-		ylabel = {$f(x)$},
-		]
-		
-		\addplot [
-		domain= 0:6.28,
-		samples=100, 
-		color=red,
-		]
-		{sin(deg(x))};
-		\addlegendentry{$\sin (x)$}
-		
-		\addplot [
-		domain=0:6.28, 
-		samples=100, 
-		color=blue,
-		]
-		{cos(deg(x))};
-		\addlegendentry{$\cos(x)$}
-		
-		\end{axis}
-		\end{tikzpicture}
-	\end{center}
+	\subsection{Formule di Werner}
+	\begin{align*}
+		sin(\alpha)cos(\beta) &= \frac{1}{2}[sin(\alpha + \beta) + sin(\alpha - \beta)]\\
+		cos(\alpha)cos(\beta) &= \frac{1}{2}[cos(\alpha + \beta) + cos(\alpha - \beta)]\\
+		sin(\alpha)sin(\beta) &= \frac{1}{2}[cos(\alpha - \beta) - cos(\alpha + \beta)]\\
+	\end{align*}
+	
+	\subsection{Formule di Prostaferesi}
+	\begin{align*}
+	sin(\alpha) + sin(\beta) &= 2 sin{\frac{\alpha + \beta}{2}}cos{\frac{\alpha - \beta}{2}}\\
+	sin(\alpha) - sin(\beta) &= 2 sin{\frac{\alpha - \beta}{2}}cos{\frac{\alpha + \beta}{2}}\\
+	cos(\alpha) + cos(\beta) &= 2 cos{\frac{\alpha + \beta}{2}}cos{\frac{\alpha + \beta}{2}}\\
+	sin(\alpha) - cos(\beta) &= -2 sin{\frac{\alpha + \beta}{2}}sin{\frac{\alpha - \beta}{2}}\\
+	\end{align*}
+	
 	
 	\begin{center}
-		\begin{figure}
-			\includegraphics[width=\linewidth]{sincos.jpg}
+		\begin{figure}[htpb]
+			\includegraphics[width=9cm]{img/sincos.jpg}
 			\caption{Tabella degli angoli associati}
 		\end{figure}
 	\end{center}
@@ -613,7 +633,7 @@
 
 	\begin{figure}[htbp]
 		\begin{center}
-			\includegraphics[width=\linewidth]{trigonometria.jpg}
+			\includegraphics*[width=6cm]{img/trigonometria.jpg}
 		\end{center}
 	\end{figure}
 
@@ -634,50 +654,70 @@
 	\end{align*}
 	
 	\newpage
+	\section{Matrici}
+	 Una matrice è una tabella rettangolare di elementi.
+	 \begin{center}
+	 	\includegraphics[width=6cm]{img/matrix.png}
+	 \end{center}
+	 
+	 \subsubsection{Somma tra matrici}
+	 \begin{align*}
+	 	[A+B]_{i,j} = [A]_{i,j} + [B]_{i,j}
+	 \end{align*}
+	 
+	 \subsubsection{Sottrazione tra matrici}
+	 \begin{align*}
+	 [A-B]_{i,j} = [A]_{i,j} - [B]_{i,j}
+	 \end{align*}
+	 
+	\subsubsection{Moltiplicazione per uno scalare}
+	\begin{align*}
+	[cA]_{i,j} = c[A]_{i,j}
+	\end{align*}
+	
+	\subsubsection{Prodotto tra matrici}
+	La moltiplicazione è definita soltanto se le matrici $A$ e $B$ sono rispettivamente di tipo $m \times p$ e $p\times n$: il numero $p$ di colonne di $A$ deve coincidere con il numero $p$ di righe di $B$. Il risultato è una matrice $C$ di tipo $m\times n$.
+	
+	\begin{align*}
+		[C]_{i,j} = [A]_{i,1}[B]_{1,j} + [A]_{i,2}[B]_{2,j} + ... + [A]_{i,j}[B]_{i,j}
+	\end{align*}
+	
+	
+	\newpage
+	\section{Progressioni}
+	
+	\subsection{Progressioni aritmetiche}
+	
+	
+	\subsection{Progressioni geometriche}
+	
+	
+	\newpage
 	\section{Esponenziali}
 	\begin{align*}
 		a^x &= b		&		a>&0
 	\end{align*}
 		
-			\begin{center}
-			\begin{tikzpicture}
-			\begin{axis}[
-			axis lines = left,
-			xlabel = $x$,
-			ylabel = {$f(x)$},
-			xmin=0,xmax=5,
-			ymin=0,ymax=10
-			]
-			
-			\addplot [
-			domain= 0:6.28,
-			samples=100, 
-			color=red,
-			]
-			{e^x};
-			\addlegendentry{$e^x$}	
-			
-					\addplot [
-			domain=0:6.28, 
-			samples=100, 
-			color=blue,
-			]
-			{ln(x)};
-			\addlegendentry{$\ln{x}$}
-			\end{axis}
-			
-			\end{tikzpicture}
-		\end{center}
+	\begin{center}
+		\includegraphics[width=5cm]{img/exp.png}
+	\end{center}
 		
 	\section{Logaritmi}
+
 	\begin{align*}
-		\log_{a}{b} &= x
-		&
-		\begin{cases}
-		b > 0\\
-		a > 0 \wedge a \ne 0
-		\end{cases}&\\
-	\end{align*}
+\log_{a}{b} &= x
+&
+\begin{cases}
+b > 0\\
+a > 0 \wedge a \ne 0
+\end{cases}&\\
+\end{align*}
+	
+	\begin{center}
+		\includegraphics[width=7cm]{img/log.png}
+	\end{center}
+	
+
 	
 	\subsubsection{Proprieta'}
 	\begin{align*}
@@ -688,7 +728,7 @@
 	\end{align*}
 	\subsubsection{Casi particolari}
 	\begin{align*}
-		\\ \log_{a} 1 &= 0 &
+		\log_{a} 1 &= 0 &
 		\log_{a} a &= 1
 	\end{align*}
 		
@@ -726,6 +766,11 @@
 	
 	\newpage
 	\section{Derivate}
+	Il rapporto incrementale di una funzione in un punto è il rapporto tra la variazione di ordinate e la variazione di ascisse definite a partire da un incremento h, ed è un prerequisito necessario per la definizione di derivata.
+	\begin{align*}
+		\lim\limits_{h \to 0}{\frac{f(x_0 + h) - f(x_0) }{h}}
+	\end{align*}
+	
 	\subsubsection{Derivate immediate}
 	\begin{align*}
 		&k \in \mathcal{N}  \to 0                       & &x^a          \to	 ax^{a-1}              \\
@@ -762,22 +807,42 @@
 			d \left( f(x)^{-1} \right) = \frac{1}{f'(x)}
 		\end{align*}
 	\end{itemize}
-\newpage
+
+	\subsubsection{Retta tangente alla curva}
+	\begin{align*}
+		y - f(x_0) = f'(x_0) \cdot (x-x_0)
+	\end{align*}
+	
+	\subsubsection{Retta normale alla curva}
+	\begin{align*}
+		y - f(x_0) = -\frac{1}{f'(x_0)} \cdot (x-x_0)
+	\end{align*}
+
+	\subsubsection{Teorema di Fermat}
+	Una funzione che ammette un massimo od un minimo relativo o assoluto in un punto, e che sia ivi derivabile, ha necessariamente la derivata prima nulla nel punto.
+
 	\subsubsection{Teorema di Rolle}
 	Se una funzione è continua in un intervallo chiuso , derivabile in ogni punto dell'intervallo aperto e assume valori uguali negli estremi dell'intervallo, allora esiste almeno un punto interno ad in cui la derivata si annulla, cioè (punto critico o stazionario).
 	\\Requisiti:
 	\begin{itemize}
-		\item $f(x)$ continua e derivabile in $(a;b)$
+		\item $f(x)$ continua in $[a;b]$ e derivabile in $(a;b)$
 		\item $f(a) = f(b)$
 	\end{itemize}
 	\begin{align*}
 		\exists c \in \mathcal{N} f'(c) = 0
 	\end{align*}
+	
+	\bigskip
+	\begin{center}
+	\includegraphics[width=8cm]{img/rolle.png}
+	\end{center}
+	
+	\newpage
 	\subsubsection{Teorema di Cauchy}
 	Requisiti:
 	\begin{itemize}
-		\item $f(x)$ continua e derivabile in $(a;b)$
-		\item $g(x)$ continua e derivabile in $(a;b)$
+		\item $f(x)$ continua in $[a;b]$ e derivabile in $(a;b)$
+		\item $g(x)$ continua in $[a;b]$ e derivabile in $(a;b)$
 	\end{itemize}
 	\begin{align*}
 	\frac{f'(c)}{g'(c)} = \frac{f(b)-f(a)}{g(b)-g(a)}
@@ -788,26 +853,16 @@
 	Questo teorema è usato per provare delle proprieta' di una funzione in un intervallo partendo da ipotesi locali sulle derivate nei punti di tale intervallo.
 	Requisiti:
 	\begin{itemize}
-		\item $f(x)$ continua e derivabile in $(a;b)$
+		\item $f(x)$ continua in $[a;b]$ e derivabile in $(a;b)$
 	\end{itemize}
 	\begin{align*}
-	f'(c)= \frac{f(b)-f(a)}{b-a}
+	m = f'(c)= \frac{f(b)-f(a)}{b-a}
 	\end{align*}
+	
+	\bigskip
+	
 	\begin{center}
-	\begin{figure}[htpb]
-		\begin{minipage}[H]{0.47\textwidth}
-			\centering
-			\includegraphics[width=3.7cm]{rolle.png}
-			\caption{\label{f_etichetta1}Teorema di Rolle}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[H]{0.47\textwidth}
-			\centering
-			\includegraphics[width=3.7cm]{lagrange.png}
-			\caption{\label{f_etichetta1}Teorema di Lagrange}
-		\end{minipage}
-	\end{figure}
-		
+		\includegraphics[width=8cm]{img/lagrange.png}
 	\end{center}
 	
 	\newpage
@@ -1127,7 +1182,7 @@
 			\end{align*}
 			\item Estrazione del massimo e minimo locale/globale 
 		\end{enumerate}		
-	\newpage
+
 	\subsection{Punti di non derivabilita'}
 	Punto angoloso:
 	\begin{align*}
@@ -1144,28 +1199,19 @@
 	
 	\subsection{Proprieta' delle funzioni derivabili}
 	\begin{center}
-		\begin{tabular}{|c|c|}
-		\hline 
+		\begin{tabular}{c|c}
+		 
 		\textbf{f(x)} & \textbf{f'(x)} \\ 
 		\hline 
 		$x \ne k$ & $x \ne k$ \\ 
-		\hline 
 		$pari$ & $dispari$ \\ 
-		\hline 
 		$dispari$ & $pari$ \\ 
-		\hline 
 		$crescente$ & $positiva$ \\ 
-		\hline 
 		$decrescente$ & $negativa$ \\ 
-		\hline 
 		$max/min$ & $intersezione$ \\ 
-		\hline
 		$\cap$	&	$decrescente$ \\
-		\hline
 		$\cup$	&	$crescente$	\\
-		\hline
 		$flesso$ & $max/min$	\\
-		\hline
 		\end{tabular} 
 	\end{center}
 	
