@@ -31,93 +31,93 @@
 \contentsline {subsubsection}{\numberline {4.0.7}Retta perpendicolare ad un piano passante per un punto}{5}
 \contentsline {subsubsection}{\numberline {4.0.8}Piano passante per un punto perpendicolare ad una retta}{5}
 \contentsline {subsubsection}{\numberline {4.0.9}Parallelismo tra piani}{5}
-\contentsline {subsubsection}{\numberline {4.0.10}Perpendicolarita' tra piani}{6}
-\contentsline {subsection}{\numberline {4.1}Calcolare i punti stazionari}{7}
-\contentsline {subsection}{\numberline {4.2}Calcolare il massimo/minimo locale vincolato}{8}
-\contentsline {subsection}{\numberline {4.3}Calcolare il massimo/minimo globale}{8}
-\contentsline {section}{\numberline {5}Numeri complessi}{9}
-\contentsline {subsection}{\numberline {5.1}Coordinate}{10}
-\contentsline {subsubsection}{\numberline {5.1.1}Coordinate sferiche}{10}
-\contentsline {subsubsection}{\numberline {5.1.2}Coordinate cilindriche}{10}
-\contentsline {subsection}{\numberline {5.2}Parametrizzazione}{10}
-\contentsline {subsubsection}{\numberline {5.2.1}Parametrizzazione di un ellisse}{10}
-\contentsline {subsubsection}{\numberline {5.2.2}Retta tangente alla curva}{10}
-\contentsline {subsubsection}{\numberline {5.2.3}Lunghezza di una curva}{10}
-\contentsline {section}{\numberline {6}Probabilita'}{11}
-\contentsline {subsubsection}{\numberline {6.0.1}Probabilita' della somma logica di eventi}{11}
-\contentsline {subsubsection}{\numberline {6.0.2}Probabilita' condizionata}{11}
-\contentsline {subsubsection}{\numberline {6.0.3}Probabilita' del prodotto logico di eventi}{11}
-\contentsline {subsubsection}{\numberline {6.0.4}Problema delle prove ripetute}{11}
-\contentsline {subsubsection}{\numberline {6.0.5}Teorema di Bayes}{11}
-\contentsline {section}{\numberline {7}Calcolo combinatorio}{12}
-\contentsline {subsubsection}{\numberline {7.0.1}Disposizione semplice}{12}
-\contentsline {subsubsection}{\numberline {7.0.2}Disposizione con ripetizione}{12}
-\contentsline {subsubsection}{\numberline {7.0.3}Permutazione semplice}{12}
-\contentsline {subsubsection}{\numberline {7.0.4}Permutazione con ripetizione}{12}
-\contentsline {subsubsection}{\numberline {7.0.5}Combinazione semplice}{12}
-\contentsline {subsubsection}{\numberline {7.0.6}Combinazione con ripetizione}{12}
-\contentsline {section}{\numberline {8}Goniometria}{13}
-\contentsline {subsection}{\numberline {8.1}Formule di Werner}{13}
-\contentsline {subsection}{\numberline {8.2}Formule di Prostaferesi}{14}
-\contentsline {section}{\numberline {9}Trigonometria}{15}
-\contentsline {subsubsection}{\numberline {9.0.1}Teorema dei seni}{15}
-\contentsline {subsubsection}{\numberline {9.0.2}Teorema del coseno (Carnot)}{15}
-\contentsline {section}{\numberline {10}Matrici}{16}
-\contentsline {subsubsection}{\numberline {10.0.1}Somma tra matrici}{16}
-\contentsline {subsubsection}{\numberline {10.0.2}Sottrazione tra matrici}{16}
-\contentsline {subsubsection}{\numberline {10.0.3}Moltiplicazione per uno scalare}{16}
-\contentsline {subsubsection}{\numberline {10.0.4}Prodotto tra matrici}{16}
-\contentsline {section}{\numberline {11}Progressioni}{17}
-\contentsline {subsection}{\numberline {11.1}Progressioni aritmetiche}{17}
-\contentsline {subsection}{\numberline {11.2}Progressioni geometriche}{17}
-\contentsline {section}{\numberline {12}Esponenziali}{18}
-\contentsline {section}{\numberline {13}Logaritmi}{18}
-\contentsline {subsubsection}{\numberline {13.0.1}Proprieta'}{18}
-\contentsline {subsubsection}{\numberline {13.0.2}Casi particolari}{18}
-\contentsline {section}{\numberline {14}Limiti}{19}
-\contentsline {subsubsection}{\numberline {14.0.1}Verifica dei limiti}{19}
-\contentsline {subsubsection}{\numberline {14.0.2}Forme indeterminate}{19}
-\contentsline {subsubsection}{\numberline {14.0.3}Limiti notevoli}{19}
-\contentsline {subsubsection}{\numberline {14.0.4}Teorema del confronto}{19}
-\contentsline {section}{\numberline {15}Derivate}{20}
-\contentsline {subsubsection}{\numberline {15.0.1}Derivate immediate}{20}
-\contentsline {subsubsection}{\numberline {15.0.2}Proprieta'}{20}
-\contentsline {subsubsection}{\numberline {15.0.3}Retta tangente alla curva}{21}
-\contentsline {subsubsection}{\numberline {15.0.4}Retta normale alla curva}{21}
-\contentsline {subsubsection}{\numberline {15.0.5}Teorema di Fermat}{21}
-\contentsline {subsubsection}{\numberline {15.0.6}Teorema di Rolle}{21}
-\contentsline {subsubsection}{\numberline {15.0.7}Teorema di Cauchy}{22}
-\contentsline {subsubsection}{\numberline {15.0.8}Teorema di Lagrange}{22}
-\contentsline {subsection}{\numberline {15.1}Teorema delle derivate successive}{23}
-\contentsline {section}{\numberline {16}Integrali}{24}
-\contentsline {subsubsection}{\numberline {16.0.1}Proprieta'}{24}
-\contentsline {subsubsection}{\numberline {16.0.2}Integrali immediati}{24}
-\contentsline {subsubsection}{\numberline {16.0.3}Integrali mediati}{24}
-\contentsline {subsubsection}{\numberline {16.0.4}Funzioni non banali}{25}
-\contentsline {subsubsection}{\numberline {16.0.5}Teorema della media}{25}
-\contentsline {subsubsection}{\numberline {16.0.6}Volume nei solidi di rotazione}{25}
-\contentsline {subsubsection}{\numberline {16.0.7}Metodo dei rettangoli}{25}
-\contentsline {subsubsection}{\numberline {16.0.8}Metodo dei trapezi}{25}
-\contentsline {subsubsection}{\numberline {16.0.9}Integrali doppi}{26}
-\contentsline {subsubsection}{\numberline {16.0.10}Integrali di linea di prima specie}{26}
-\contentsline {subsubsection}{\numberline {16.0.11}Integrali di linea di seconda specie}{26}
-\contentsline {subsubsection}{\numberline {16.0.12}Integrali tripli}{26}
-\contentsline {subsubsection}{\numberline {16.0.13}Campi vettoriali}{26}
-\contentsline {section}{\numberline {17}Equazioni differenziali}{27}
-\contentsline {subsubsection}{\numberline {17.0.1}Primo ordine}{27}
-\contentsline {subsubsection}{\numberline {17.0.2}Secondo ordine}{27}
-\contentsline {section}{\numberline {18}Studio di funzione}{28}
-\contentsline {subsection}{\numberline {18.1}Studio del dominio}{28}
-\contentsline {subsection}{\numberline {18.2}Studio del limite e degli asintoti}{28}
-\contentsline {subsubsection}{\numberline {18.2.1}Discontinuita'}{28}
-\contentsline {subsubsection}{\numberline {18.2.2}Asintoto}{28}
-\contentsline {subsection}{\numberline {18.3}Parita'/Disparita'}{29}
-\contentsline {subsection}{\numberline {18.4}Incontro con gli assi}{29}
-\contentsline {subsection}{\numberline {18.5}Studio del segno}{29}
-\contentsline {subsection}{\numberline {18.6}Punti di massimo e minimo}{29}
-\contentsline {subsection}{\numberline {18.7}Punti di flesso}{30}
-\contentsline {subsection}{\numberline {18.8}Punti di non derivabilita'}{30}
-\contentsline {subsection}{\numberline {18.9}Proprieta' delle funzioni derivabili}{30}
-\contentsline {subsection}{\numberline {18.10}Approssimazioni}{30}
-\contentsline {subsubsection}{\numberline {18.10.1}Metodo delle tangenti (Newton)}{30}
-\contentsline {subsubsection}{\numberline {18.10.2}Metodo delle secanti}{31}
+\contentsline {subsubsection}{\numberline {4.0.10}Perpendicolarita' tra piani}{5}
+\contentsline {subsection}{\numberline {4.1}Calcolare i punti stazionari}{6}
+\contentsline {subsection}{\numberline {4.2}Calcolare il massimo/minimo locale vincolato}{7}
+\contentsline {subsection}{\numberline {4.3}Calcolare il massimo/minimo globale}{7}
+\contentsline {section}{\numberline {5}Numeri complessi}{8}
+\contentsline {subsection}{\numberline {5.1}Coordinate}{9}
+\contentsline {subsubsection}{\numberline {5.1.1}Coordinate sferiche}{9}
+\contentsline {subsubsection}{\numberline {5.1.2}Coordinate cilindriche}{9}
+\contentsline {subsection}{\numberline {5.2}Parametrizzazione}{9}
+\contentsline {subsubsection}{\numberline {5.2.1}Parametrizzazione di un ellisse}{9}
+\contentsline {subsubsection}{\numberline {5.2.2}Retta tangente alla curva}{9}
+\contentsline {subsubsection}{\numberline {5.2.3}Lunghezza di una curva}{9}
+\contentsline {section}{\numberline {6}Probabilita'}{10}
+\contentsline {subsubsection}{\numberline {6.0.1}Probabilita' della somma logica di eventi}{10}
+\contentsline {subsubsection}{\numberline {6.0.2}Probabilita' condizionata}{10}
+\contentsline {subsubsection}{\numberline {6.0.3}Probabilita' del prodotto logico di eventi}{10}
+\contentsline {subsubsection}{\numberline {6.0.4}Problema delle prove ripetute}{10}
+\contentsline {subsubsection}{\numberline {6.0.5}Teorema di Bayes}{10}
+\contentsline {section}{\numberline {7}Calcolo combinatorio}{11}
+\contentsline {subsubsection}{\numberline {7.0.1}Disposizione semplice}{11}
+\contentsline {subsubsection}{\numberline {7.0.2}Disposizione con ripetizione}{11}
+\contentsline {subsubsection}{\numberline {7.0.3}Permutazione semplice}{11}
+\contentsline {subsubsection}{\numberline {7.0.4}Permutazione con ripetizione}{11}
+\contentsline {subsubsection}{\numberline {7.0.5}Combinazione semplice}{11}
+\contentsline {subsubsection}{\numberline {7.0.6}Combinazione con ripetizione}{11}
+\contentsline {section}{\numberline {8}Goniometria}{12}
+\contentsline {subsection}{\numberline {8.1}Formule di Werner}{12}
+\contentsline {subsection}{\numberline {8.2}Formule di Prostaferesi}{13}
+\contentsline {section}{\numberline {9}Trigonometria}{14}
+\contentsline {subsubsection}{\numberline {9.0.1}Teorema dei seni}{14}
+\contentsline {subsubsection}{\numberline {9.0.2}Teorema del coseno (Carnot)}{14}
+\contentsline {section}{\numberline {10}Matrici}{15}
+\contentsline {subsubsection}{\numberline {10.0.1}Somma tra matrici}{15}
+\contentsline {subsubsection}{\numberline {10.0.2}Sottrazione tra matrici}{15}
+\contentsline {subsubsection}{\numberline {10.0.3}Moltiplicazione per uno scalare}{15}
+\contentsline {subsubsection}{\numberline {10.0.4}Prodotto tra matrici}{15}
+\contentsline {section}{\numberline {11}Progressioni}{16}
+\contentsline {subsection}{\numberline {11.1}Progressioni aritmetiche}{16}
+\contentsline {subsection}{\numberline {11.2}Progressioni geometriche}{16}
+\contentsline {section}{\numberline {12}Esponenziali}{17}
+\contentsline {section}{\numberline {13}Logaritmi}{17}
+\contentsline {subsubsection}{\numberline {13.0.1}Proprieta'}{17}
+\contentsline {subsubsection}{\numberline {13.0.2}Casi particolari}{17}
+\contentsline {section}{\numberline {14}Limiti}{18}
+\contentsline {subsubsection}{\numberline {14.0.1}Verifica dei limiti}{18}
+\contentsline {subsubsection}{\numberline {14.0.2}Forme indeterminate}{18}
+\contentsline {subsubsection}{\numberline {14.0.3}Limiti notevoli}{18}
+\contentsline {subsubsection}{\numberline {14.0.4}Teorema del confronto}{18}
+\contentsline {section}{\numberline {15}Derivate}{19}
+\contentsline {subsubsection}{\numberline {15.0.1}Derivate immediate}{19}
+\contentsline {subsubsection}{\numberline {15.0.2}Proprieta'}{19}
+\contentsline {subsubsection}{\numberline {15.0.3}Retta tangente alla curva}{20}
+\contentsline {subsubsection}{\numberline {15.0.4}Retta normale alla curva}{20}
+\contentsline {subsubsection}{\numberline {15.0.5}Teorema di Fermat}{20}
+\contentsline {subsubsection}{\numberline {15.0.6}Teorema di Rolle}{20}
+\contentsline {subsubsection}{\numberline {15.0.7}Teorema di Cauchy}{21}
+\contentsline {subsubsection}{\numberline {15.0.8}Teorema di Lagrange}{21}
+\contentsline {subsection}{\numberline {15.1}Teorema delle derivate successive}{22}
+\contentsline {section}{\numberline {16}Integrali}{23}
+\contentsline {subsubsection}{\numberline {16.0.1}Proprieta'}{23}
+\contentsline {subsubsection}{\numberline {16.0.2}Integrali immediati}{23}
+\contentsline {subsubsection}{\numberline {16.0.3}Integrali mediati}{23}
+\contentsline {subsubsection}{\numberline {16.0.4}Funzioni non banali}{24}
+\contentsline {subsubsection}{\numberline {16.0.5}Teorema della media}{24}
+\contentsline {subsubsection}{\numberline {16.0.6}Volume nei solidi di rotazione}{24}
+\contentsline {subsubsection}{\numberline {16.0.7}Metodo dei rettangoli}{24}
+\contentsline {subsubsection}{\numberline {16.0.8}Metodo dei trapezi}{24}
+\contentsline {subsubsection}{\numberline {16.0.9}Integrali doppi}{25}
+\contentsline {subsubsection}{\numberline {16.0.10}Integrali di linea di prima specie}{25}
+\contentsline {subsubsection}{\numberline {16.0.11}Integrali di linea di seconda specie}{25}
+\contentsline {subsubsection}{\numberline {16.0.12}Integrali tripli}{25}
+\contentsline {subsubsection}{\numberline {16.0.13}Campi vettoriali}{25}
+\contentsline {section}{\numberline {17}Equazioni differenziali}{26}
+\contentsline {subsubsection}{\numberline {17.0.1}Primo ordine}{26}
+\contentsline {subsubsection}{\numberline {17.0.2}Secondo ordine}{26}
+\contentsline {section}{\numberline {18}Studio di funzione}{27}
+\contentsline {subsection}{\numberline {18.1}Studio del dominio}{27}
+\contentsline {subsection}{\numberline {18.2}Studio del limite e degli asintoti}{27}
+\contentsline {subsubsection}{\numberline {18.2.1}Discontinuita'}{27}
+\contentsline {subsubsection}{\numberline {18.2.2}Asintoto}{27}
+\contentsline {subsection}{\numberline {18.3}Parita'/Disparita'}{28}
+\contentsline {subsection}{\numberline {18.4}Incontro con gli assi}{28}
+\contentsline {subsection}{\numberline {18.5}Studio del segno}{28}
+\contentsline {subsection}{\numberline {18.6}Punti di massimo e minimo}{28}
+\contentsline {subsection}{\numberline {18.7}Punti di flesso}{28}
+\contentsline {subsection}{\numberline {18.8}Punti di non derivabilita'}{29}
+\contentsline {subsection}{\numberline {18.9}Proprieta' delle funzioni derivabili}{29}
+\contentsline {subsection}{\numberline {18.10}Approssimazioni}{29}
+\contentsline {subsubsection}{\numberline {18.10.1}Metodo delle tangenti (Newton)}{29}
+\contentsline {subsubsection}{\numberline {18.10.2}Metodo delle secanti}{29}

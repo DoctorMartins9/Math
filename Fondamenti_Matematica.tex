@@ -12,12 +12,13 @@
 \newcommand\HRule{\rule{\textwidth}{1pt}}
 
 % front-page font
-\usepackage{LobsterTwo}
+%\usepackage{LobsterTwo}
 \usepackage[T1]{fontenc}
 
 \begin{document}
 	
 	\begin{titlepage}
+		\fontfamily{LobsterTwo-LF}\selectfont
 		\begin{tikzpicture}[remember picture, overlay]
 		\draw[line width = 1pt] ($(current page.north west) + (1,-1)$) rectangle ($(current page.south east) + (-1,1)$);
 		\end{tikzpicture}
@@ -36,8 +37,9 @@
 	\end{titlepage}
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% Da qui in poi vorrei utilizzare il font di default LaTex
+	% Da qui in poi il font è quello normale
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 		
 	\thispagestyle{empty}
 	\newpage
