@@ -1,0 +1,145 @@
+\documentclass[a4paper]{article}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{makeidx}
+\usepackage{subfig}
+\usepackage{pgfplots}
+\usepackage{amsmath} % Advanced math typesetting
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{multicol}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+\definecolor{ao(english)}{rgb}{0.0, 0.5, 0.0}
+\pagestyle{empty}
+\title{Eserciziario sui polinomi}
+\date{2020}
+\author{Enrico Martini}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\setcounter{section}{-1}
+\section{Breve formulario}
+Breve riassunto di tutte le formule utili, da utilizzare solo se si è in difficoltà e da nascondere prima di cominciare i test:
+\paragraph{Raccoglimento}
+\begin{align*}
+	ac + bc &= c(a+b)\\
+	a^2-b^2 &= (a+b)(a-b)\\
+	a(b+c) + d(b+c) &= (a+d)(b+c)
+\end{align*}
+\paragraph{Elevamento a potenza}
+\begin{align*}
+(a+b)^2 &= a^2 + 2ab + b^2\\
+(a-b)^2 &= a^2 - 2ab + b^2\\
+(a+b)^3 &= a^3 + b^3 + 3a^2b + 3ab^2\\
+(a-b)^3 &= a^3 - b^3 - 3a^2b + 3ab^2\\
+(a+b+c)^2 &= a^2 + b^2 + c^2 + 2ab + 2ac + 2bc\\
+(a+b-c)^2 &= a^2 + b^2 + c^2 + 2ab - 2ac - 2bc\\
+(a-b+c)^2 &= a^2 + b^2 + c^2 - 2ab + 2ac - 2bc\\
+(a-b-c)^2 &= a^2 + b^2 + c^2 - 2ab - 2ac + 2bc
+\end{align*}
+
+\newpage
+\section{TEST }
+\begin{itemize}
+\item Tempo: 60 min
+\item Tempo per quesito: 15 min 
+\end{itemize}
+\textit{NB: l'obiettivo di questo test è gestire bene il tempo, impegnando al massimo il tempo per quesito sopra citato. Utilizza un orologio per vedere quanto manca, è uno strumento essenziale, anche in verifica.}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\begin{enumerate}
+\item $(a+a^2-1)(x-1)-[(a+x)^2-ax+a^2(x-2)]+x(x+1)$	%76
+\item $(2x^4+x^2-1):(2x^2-1)$
+\item $(2a-b)^3-[(a-2b)(a^2+2ab+4b^2)+(2a-b)^2(a+b)]-3[b(b-2a)^2+(a+b)(a^2-ab+b^2)]$	%112
+\item $3(x^2+1)+(x-2)(x-1)+x(ax-1)(ax-3)-[2(x-2)^2+x(ax-3)^2+(2x+5)(x-1)]$
+\end{enumerate}
+\begin{center}
+	\line(1,0){450}
+\end{center}
+
+\newpage
+\section{TEST }
+\begin{itemize}
+	\item Tempo: 60 min
+	\item Tempo per quesito: 15 min 
+\end{itemize}
+\textit{NB: l'obiettivo di questo test è gestire bene il tempo, impegnando al massimo il tempo per quesito sopra citato. Utilizza un orologio per vedere quanto manca, è uno strumento essenziale, anche in verifica.}
+\begin{center}
+	\line(1,0){450}
+\end{center}
+\begin{enumerate}
+	\item $(x^4+2x+2x^3-3-2x^2):(x^2+1)$
+	\item $(2x^5-4x^4+x^3+2x^2-x):(2x^2-1)$
+	\item $(x^3-ax^2-a^2x-2a^3):(x-2a)$
+	\item $(2x^4+7xx^3y-7x^2y^2-14xy^3+6y^4):(x^2-2y^2)$
+	\item $(\frac{3}{2}xy^2-\frac{3}{2}y^3+x-y):(x-y)$
+	\item $(\frac{2}{3}x^3-x+\frac{4}{3}x^2-2):(x+2)$
+\end{enumerate}
+\begin{center}
+	\line(1,0){450}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\twocolumn
+\section{Soluzioni}
+\begin{enumerate}
+\item 	\begin{itemize}
+		\item $1-a$
+		\item $x^2+1$
+		\item $21ab^2-24a^2b$
+		\item $2ax^2-4x+2$
+	\end{itemize}
+\item 	\begin{itemize}
+		\item $x^2+2x-3$
+		\item $x^3-2x^2+x$
+		\item $x^2+ax+a$
+		\item $2x^2+7xy-3y^2$
+		\item $\frac{3}{2}y^2+1$
+		\item $\frac{3}{2}x^2-1$
+\end{itemize}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
